@@ -22,6 +22,8 @@
 		74EAD71529BB940E00F95633 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAD71429BB940E00F95633 /* RMService.swift */; };
 		74EAD71729BB941F00F95633 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAD71629BB941F00F95633 /* RMRequest.swift */; };
 		74EAD71929BB94B100F95633 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAD71829BB94B100F95633 /* RMEndpoint.swift */; };
+		74EAD71B29BE15E600F95633 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAD71A29BE15E500F95633 /* RMOrigin.swift */; };
+		74EAD71D29BE167100F95633 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAD71C29BE167100F95633 /* RMSingleLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		74EAD71429BB940E00F95633 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		74EAD71629BB941F00F95633 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		74EAD71829BB94B100F95633 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		74EAD71A29BE15E500F95633 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		74EAD71C29BE167100F95633 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				74EAD70529BB8EEA00F95633 /* RMLocation.swift */,
 				74EAD70729BB8EF400F95633 /* RMCharacter.swift */,
 				74EAD70929BB8EFD00F95633 /* RMEpisode.swift */,
+				74EAD71A29BE15E500F95633 /* RMOrigin.swift */,
+				74EAD71C29BE167100F95633 /* RMSingleLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EAD71B29BE15E600F95633 /* RMOrigin.swift in Sources */,
+				74EAD71D29BE167100F95633 /* RMSingleLocation.swift in Sources */,
 				74EAD70F29BB8F6700F95633 /* RMLocationViewController.swift in Sources */,
 				74EAD70A29BB8EFD00F95633 /* RMEpisode.swift in Sources */,
 				74EAD6EF29BB8CD800F95633 /* RMTabViewController.swift in Sources */,

@@ -12,7 +12,7 @@ import Foundation
 /// Primary API service object to get Rick and Morty data
 final class RMService {
     /// Shared singleton instance
-    static let shard = RMService()
+    static let shared = RMService()
     
     private init() {}
     
