@@ -18,7 +18,7 @@ final class RMRequest {
         static let baseURL = "https://rickandmortyapi.com/api"
     }
     private let endpoint : RMEndpoint
-    private let pathComponents : Set<String>
+    private let pathComponents : [String]
     private let queryParameters: [URLQueryItem]
     
     public var urlString: String {
@@ -48,9 +48,13 @@ final class RMRequest {
     /// HTTP Methods
     public let httpMethod = "GET"
     
-    init(endpoint: RMEndpoint, pathComponents: Set<String> = [], queryParameters: [URLQueryItem] = []) {
+    init(endpoint: RMEndpoint, pathComponents: [String] = [], queryParameters: [URLQueryItem] = []) {
         self.endpoint = endpoint
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
+}
+
+extension RMRequest {
+    static let listCharactersRequest = RMRequest(endpoint: .character)
 }
