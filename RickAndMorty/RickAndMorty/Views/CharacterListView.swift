@@ -23,11 +23,12 @@ class CharacterListView: UIView {
         layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.isHidden = true
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(CharacterCell.self, forCellWithReuseIdentifier: CharacterCell.reuseID)
         collectionView.alpha = 0
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView
     }()
+   
     
     override init(frame: CGRect) {
         super.init(frame: frame)
